@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="INCA Finance">
+  <defs><linearGradient id="r" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F49AC8"/><stop offset="1" stop-color="#D80F80"/></linearGradient></defs>
+  <g stroke-linejoin="round" stroke-width="8">
+    <polygon points="50,12 82,28 50,44 18,28" fill="#EC008C" stroke="#EC008C"/>
+    <polygon points="16,40 43.5,53.75 43.5,88 16,74.25" fill="#E2058A" stroke="#E2058A"/>
+    <polygon points="84,40 56.5,53.75 56.5,88 84,74.25" fill="url(#r)" stroke="url(#r)"/>
+  </g>
+</svg>
