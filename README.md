@@ -22,14 +22,16 @@ Static website for INCA Finance Ltd (FCA FRN 480650), hosted on GitHub Pages.
 
 Every item is highlighted in yellow on the site until it's filled in.
 
-- [ ] **Fees** (`fees.html`): typical fee amounts, the maximum fee, a worked example and when the fee is payable (including any non-refundable element)
+- [x] **Fees**: amounts are not published (not required by the FCA). The site says a fee is charged and refers clients to the Terms of Business
 - [x] **Insurance remuneration**: confirmed no fee; paid by insurer commission
-- [ ] **Permissions** (`regulatory.html`): match the wording to the FCA Register entry for FRN 480650
+- [x] **Permissions**: wording taken from the Terms of Business (30 Oct 2026). Double-check it against the FCA Register
 - [ ] **Email address** (`build.py`): confirm or replace `info@incafinance.co.uk`
 - [ ] **Opening hours** (`contact.html`)
-- [ ] **City office address and team details** (`about.html`): optional
-- [ ] **Privacy notice**: add the ICO registration number and retention periods, then have it reviewed
-- [ ] Confirm that the initial consultation is free and without obligation (home and fees pages)
+- [x] **Trading address**: 63 St Mary Axe, London EC3A 8AA (from the Terms of Business)
+- [ ] **Team details** (`about.html`): optional
+- [ ] **Privacy notice**: add the ICO registration number, then have it reviewed (retention wording taken from the Terms of Business)
+- [x] Free initial consultation: confirmed in the Terms of Business
+- [ ] **Insurance products**: the Terms of Business list life, mortgage term assurance, critical illness and buildings/contents only. Confirm whether income protection, landlord and business insurance should stay on the site
 - [ ] Confirm the "30+ years' experience" claim (advisers' combined experience; the company was founded in 2006)
 - [ ] Have the financial promotions approved and recorded by the person responsible for compliance
 - [ ] Higher-resolution logo: the cube was redrawn as an SVG and "INCA Finance Ltd" is set as live text in grey (#58595B), matching the supplied logo. Replace `docs/assets/img/inca-mark.svg` if you have the original vector artwork

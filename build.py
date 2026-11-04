@@ -12,6 +12,8 @@ SITE = {
     "FRN": "480650",
     "COMPANY_NO": "05988620",
     "REG_OFFICE": "2nd Floor, Premier House, 309 Ballards Lane, London N12 8LY",
+    "OFFICE": "63 St Mary Axe, London EC3A 8AA",
+    "COMPLIANCE_EMAIL": "Compliance@incafinance.co.uk",
     "PHONE": "0777 9279 021",
     "PHONE_TEL": "+447779279021",
     "EMAIL": "info@incafinance.co.uk",          # CONFIRM before go-live
