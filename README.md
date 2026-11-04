@@ -23,7 +23,7 @@ Static website for INCA Finance Ltd (FCA FRN 480650), hosted on GitHub Pages.
 Every item is highlighted in yellow on the site until it's filled in.
 
 - [ ] **Fees** (`fees.html`): typical fee amounts, the maximum fee, a worked example and when the fee is payable (including any non-refundable element)
-- [ ] **Insurance remuneration** (`insurance.html`): confirm commission only, or say if a fee is charged
+- [x] **Insurance remuneration**: confirmed no fee; paid by insurer commission
 - [ ] **Permissions** (`regulatory.html`): match the wording to the FCA Register entry for FRN 480650
 - [ ] **Email address** (`build.py`): confirm or replace `info@incafinance.co.uk`
 - [ ] **Opening hours** (`contact.html`)
@@ -32,7 +32,7 @@ Every item is highlighted in yellow on the site until it's filled in.
 - [ ] Confirm that the initial consultation is free and without obligation (home and fees pages)
 - [ ] Confirm the "30+ years' experience" claim (advisers' combined experience; the company was founded in 2006)
 - [ ] Have the financial promotions approved and recorded by the person responsible for compliance
-- [ ] Higher-resolution logo: the mark was redrawn as an SVG from the old site's 270px icon. Replace `docs/assets/img/inca-mark.svg` if you have the original artwork
+- [ ] Higher-resolution logo: the cube was redrawn as an SVG and "INCA Finance Ltd" is set as live text in grey (#58595B), matching the supplied logo. Replace `docs/assets/img/inca-mark.svg` if you have the original vector artwork
 
 ## Deliberately removed from the old site
 

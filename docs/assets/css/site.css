@@ -40,9 +40,8 @@ mark.todo{background:#FFE58A;color:#3b2d00;padding:0 .25em;border-radius:3px;fon
 header.site{background:var(--white);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}
 header.site .wrap{display:flex;align-items:center;justify-content:space-between;height:78px;gap:20px}
 .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink)}
-.brand img{width:40px;height:40px}
-.brand .wm{font-family:var(--serif);font-weight:700;font-size:1.45rem;letter-spacing:.04em;line-height:1}
-.brand .wm small{display:block;font:600 .62rem/1 var(--sans);letter-spacing:.32em;color:var(--muted);margin-top:5px}
+.brand img{width:42px;height:42px}
+.brand .wm{font:400 1.32rem/1 Arial,"Helvetica Neue",Helvetica,var(--sans);color:#58595B;letter-spacing:-.005em;white-space:nowrap}
 nav.main ul{list-style:none;margin:0;padding:0;display:flex;gap:4px;align-items:center}
 nav.main a{display:block;padding:10px 14px;text-decoration:none;color:var(--ink);font-weight:500;font-size:.96rem;border-radius:6px}
 nav.main a:hover,nav.main a[aria-current=page]{background:var(--paper);color:var(--brand-text)}
@@ -180,7 +179,7 @@ footer.site a:hover{text-decoration:underline}
 .foot-top ul{list-style:none;margin:0;padding:0}
 .foot-top li{margin-bottom:8px}
 footer .brand{color:#fff;margin-bottom:16px}
-footer .brand .wm small{color:#9AA7B8}
+footer .brand .wm{color:#fff}
 .reg{border-top:1px solid rgba(255,255,255,.12);padding:28px 0 36px;font-size:.83rem;line-height:1.6;color:#9AA7B8}
 .reg p{margin:0 0 .8em}
 .reg strong{color:#fff}
