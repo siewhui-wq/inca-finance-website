@@ -5,7 +5,8 @@ Static website for INCA Finance Ltd (FCA FRN 480650), hosted on GitHub Pages.
 ## Where it lives
 
 - Repository: https://github.com/siewhui-wq/inca-finance-website (public)
-- Draft site: https://siewhui-wq.github.io/inca-finance-website/ (GitHub Pages, `main` branch, `/docs` folder)
+- Live site: https://www.incafinance.co.uk (custom domain via `docs/CNAME`; DNS at Easyspace, A records to GitHub Pages and `www` CNAME to siewhui-wq.github.io; MX/TXT for Google Workspace email left untouched)
+- Original GitHub address: https://siewhui-wq.github.io/inca-finance-website/ (GitHub Pages, `main` branch, `/docs` folder)
 - Working copy: `~/Downloads/inca` on Siew Hui's Mac, opened in GitHub Desktop. Changes go live when she clicks **Push origin**
 
 ## How it's organised
@@ -36,11 +37,11 @@ Every item is highlighted in yellow on the site until it's filled in.
 - [x] **Trading address**: 63 St Mary Axe, London EC3A 8AA (from the Terms of Business)
 - [x] **Team section**: removed
 - [x] **ICO registration number**: Z1389227
-- [ ] **Privacy notice**: have it reviewed (retention wording taken from the Terms of Business)
+- [x] **Privacy notice**: reviewed (retention wording taken from the Terms of Business)
 - [x] Free initial consultation: confirmed in the Terms of Business
 - [x] **Insurance products**: income protection, landlord and business insurance stay on the site (decided 4 Nov 2026), although the Terms of Business list only life, mortgage term assurance, critical illness and buildings/contents
 - [ ] Confirm the "30+ years' experience" claim (advisers' combined experience; the company was founded in 2006)
-- [ ] Have the financial promotions approved and recorded by the person responsible for compliance
+- [x] Compliance sign-off received (5 Nov 2026); draft banner removed and search engines allowed
 - [ ] Higher-resolution logo: the cube was redrawn as an SVG and "INCA Finance Ltd" is set as live text in grey (#58595B), matching the supplied logo. Replace `docs/assets/img/inca-mark.svg` if you have the original vector artwork
 
 ## Deliberately removed from the old site

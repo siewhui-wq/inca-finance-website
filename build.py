@@ -22,7 +22,7 @@ SITE = {
     "UPDATED": datetime.date.today().strftime("%-d %B %Y"),
 }
 # Shows a "draft - pending compliance sign-off" bar on every page. Set False to go live.
-DRAFT = True
+DRAFT = False
 
 NAV = [("index.html", "Home"), ("mortgages.html", "Mortgages"), ("insurance.html", "Insurance"),
        ("about.html", "About us"), ("fees.html", "Fees")]
@@ -68,6 +68,7 @@ def build():
     (OUT / "robots.txt").write_text(("User-agent: *\nDisallow: /\n" if DRAFT else "User-agent: *\nAllow: /\n")
                                     + f"Sitemap: {SITE['DOMAIN']}/sitemap.xml\n")
     (OUT / ".nojekyll").write_text("")
+    (OUT / "CNAME").write_text(SITE["DOMAIN"].split("//")[1] + "\n")
 
 
 if __name__ == "__main__":
