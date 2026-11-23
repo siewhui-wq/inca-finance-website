@@ -44,6 +44,11 @@ Every item is highlighted in yellow on the site until it's filled in.
 - [x] Compliance sign-off received (5 Nov 2026); draft banner removed and search engines allowed
 - [ ] Higher-resolution logo: the cube was redrawn as an SVG and "INCA Finance Ltd" is set as live text in grey (#58595B), matching the supplied logo. Replace `docs/assets/img/inca-mark.svg` if you have the original vector artwork
 
+## Google
+
+- Search Console: Domain property `incafinance.co.uk` (siewhui@incafinance.co.uk). It was auto-verified by the Google DNS record (CNAME `pigso236oha6`), so **don't delete that record**. Sitemap submitted and home page indexing requested on 23 Nov 2026.
+- The structured data address is 63 St Mary Axe, EC3A 8AA, to match the Google Business Profile.
+
 ## Deliberately removed from the old site
 
 - **"Financial planning"**: investment advice needs separate FCA permissions. Add it back only if FRN 480650 holds them.
