@@ -59,6 +59,13 @@ def build():
                     .replace("[[DRAFT]]", draft)
                     .replace("[[RISK]]", meta.get("risk", "")))
         html += body + foot
+        # One home address for Google: link to "/" rather than "index.html"
+        html = html.replace('href="index.html', 'href="/')
+        if page.name == "404.html":
+            # The 404 page can be served at any path, so use root-based links and keep it out of Google
+            html = re.sub(r'(href|src)="(?!/|https?:|mailto:|tel:|#|\{\{)', r'\1="/', html)
+            html = re.sub(r'<link rel="canonical"[^>]*>\n', '', html)
+            html = html.replace('<meta name="viewport"', '<meta name="robots" content="noindex">\n<meta name="viewport"', 1)
         (OUT / page.name).write_text(fill(html))
         print("built", page.name)
     # sitemap
